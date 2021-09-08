@@ -10,7 +10,6 @@ We always recommend using unlocked packages over source packages whenever you ca
 2. [Unlocked Packages \(Org-Dependent\)](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_org_dependent.htm)
 3. Source Packages
 
-
 Source Pages are typically used when you come across these constraints
 
 * [Metadata not supported by Unlocked Packages](https://developer.salesforce.com/docs/metadata-coverage)  

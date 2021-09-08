@@ -9,27 +9,29 @@
 * [sfpowerkit](https://github.com/Accenture/sfpowerkit)
 * [sfmc-devtools](https://github.com/Accenture/sfmc-devtools)
 
+## DEVELOPMENT PRACTICES
+
+* [Unlocked Packages](development-practices/unlocked-packages.md)
+* [Source Packages](development-practices/source-packages.md)
+* [Data Packages](development-practices/data-packages.md)
+
 ## Source Code Management <a id="scm"></a>
 
 * [Repository Structure](scm/repository-structure.md)
+* [Dealing with Org Specific Metadata](scm/dealing-with-sensitive-metadata.md)
+* [Managing Profiles](scm/managing-profiles.md)
 * [Branching Model](scm/branching-model/README.md)
   * [Feature Toggling](scm/branching-model/feature-toggling.md)
   * [Branching Conventions](scm/branching-model/branching-conventions.md)
-
-## Development Practices
-
-* [Organizing your code / config](development-practices/modularizing-your-code-config/README.md)
-  * [Unlocked Packages](development-practices/modularizing-your-code-config/unlocked-packages.md)
-  * [Source Packages](development-practices/modularizing-your-code-config/source-packages.md)
-  * [Data Packages](development-practices/modularizing-your-code-config/data-packages.md)
-* [Dealing with Org Specific Metadata](development-practices/dealing-with-sensitive-metadata.md)
-* [Managing Profiles](development-practices/managing-profiles.md)
-* [Tracking Manual Steps](development-practices/tracking-manual-steps.md)
+* [Tracking Manual Steps](scm/tracking-manual-steps.md)
 
 ## CI/CD
 
-* [A Typical  CI/CD Pipeline](ci-cd/a-typical-ci-cd-pipeline.md)
-* [Reference Implementation](ci-cd/reference-implementation.md)
+* [A DX@Scale CI/CD Pipeline](ci-cd/a-typical-ci-cd-pipeline.md)
+* [Implementing CI/CD Pipelines](ci-cd/templates/README.md)
+  * [GitHub](ci-cd/templates/github.md)
+  * [GitLab](ci-cd/templates/gitlab.md)
+  * [Azure DevOps](ci-cd/templates/azure-devops.md)
 
 ## Environment Management <a id="environment"></a>
 
@@ -47,6 +49,10 @@
 
 * [Team Structure and Roles](roles-and-responsibilites/team.md)
 
+## DEVELOPER EXPERIENCE
+
+* [Focus on Developer Experience](developer-experience/focus-on-developer-experience.md)
+
 ## Developer Onboarding <a id="hands-on-challenges"></a>
 
 * [Intro](hands-on-challenges/intro.md)
@@ -61,7 +67,7 @@
 * [Building your packages](hands-on-challenges/build-your-package.md)
 * [Publish and Release your artifacts](hands-on-challenges/publish-and-fetch-your-artifacts.md)
 * [Scratch Org Pooling Part 1](hands-on-challenges/scratch-org-pooling.md)
-* [Scratch Org Pooling Part 2](hands-on-challenges/scratch-org-pooling-part-2-prepare.md)
+* [Scratch Org Pooling Part 2 \(prepare\)](hands-on-challenges/scratch-org-pooling-part-2-prepare.md)
 * [Validating your changes](hands-on-challenges/validating-your-changes.md)
 
 ## Media Library
