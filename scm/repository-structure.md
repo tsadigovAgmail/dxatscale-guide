@@ -21,5 +21,11 @@ Different folders in each of the structure are explained as below
 src-env-specific should be added to .forceignore files and should not be deployed to a scratch org.
 {% endhint %}
 
-This will form your initial structure of packaging. Once some development cycles are being completed, frameworks can be moved into its own repository. If you also figure a particular domain is being not iterated upon frequently anymore and there are no upward dependency, they could also be removed into another repository.
+This will form your initial structure of packaging. Once some development cycles are being completed, frameworks can be moved into its own repository. If you also figure a particular domain is being not iterated upon frequently anymore and there is no upward dependency, they could also be removed into another repository.
+
+You can clone the below repository for a template of the above repository structure
+
+{% embed url="https://github.com/dxatscale/dxatscale-template" %}
+
+
 

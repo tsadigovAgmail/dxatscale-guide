@@ -1,6 +1,6 @@
-# A Typical  CI/CD Pipeline
+# A DX@Scale CI/CD Pipeline
 
- Let's look at a typical CI/CD pipeline for a package-based development in a program that has multiple environments. For brevity, validation before integration is not discussed
+Let's look at a typical CI/CD pipeline for a DX@Scale project that has multiple environments. For brevity, validation during a Pull /Merge request is not discussed.
 
 ![](../.gitbook/assets/flowdiagram_revised.png)
 
